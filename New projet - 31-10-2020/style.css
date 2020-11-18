@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2? family = Grenze + Gotisch: wght @ 600 & display = swap");
+@import url("https://fonts.googleapis.com/css2? family = Danse + Script & display = swap");
+
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body, html{height:200%;}
+#main{
+    max-width:1280px;
+    min-height:100%;
+    margin:0 auto;
+    position:relative;
+}
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+    position: relative;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    }
+li {
+    list-style-type: none;
+} 
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ***********************NAYBAR****************** */
+nav {
+    overflow: hidden;
+    background-color: #FFFAE1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancin Scriptg', cursive;
+    font-weight: bold;
+    float: left;
+}
+/* *****************IMAGE PRINCIPALE************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(Media/image-principale.JPG) no-repeat fixed  50% 50%;
+    background-size: cover;
+    height: 670px;
+}
+h1 {
+        font-family: 'Dancing Script', cursive;;
+        text-align: center;
+        color: #FFFAE1;
+        font-size: 6em;
+        margin-top: 200px;
+        text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+        height: 1px;
+        width: 25%;
+        margin: -3px auto;
+        background-color: #FFFAE1;
+        box-shadow: 1px 3px 2px black;
+}
+h4{
+        text-align: center;
+        color: black;
+        font-size: 2em;
+}
+    /* ************PRESENTATION********************* */
+#presentation{
+        background-color: #FFFAE1;
+        padding: 10px 0px 100px 0;
+}
+#textIntro {
+        padding: 0px 30%;
+}
+#prestation {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 10%;
+}
+.imagesPrestations h4 {
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 1.8em;
+        margin : 15px;
+        font-weight: 300;
+}
+.imagesPrestation img {
+        border-radius: 50%;
+        border: 0px solid #1C6EA4;
+        border-radius: 40px 40px 40px 40px;
+        box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.85);
+}
+    /* ********************CHANGER********************* */
+.imagesPrestation img:hover {
+        opacity: 0.9;
+        transform: scale(1.04);
+        transition: 0.3s ease-in-out;
+}  
+    /* ******************TOURISME********************** */
+#tourisme {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #f1f2f6;
+        padding: 1px 2%;
+}
+#tourisme h2{
+        padding-top: 60px;
+        text-align: center;
+        margin-top: auto;
+}
+#photo1 {
+        background: url(Media/LeRelaisDeMantelot.jpg);
+}
+#photo1 {
+        background: url(Media/photo1.jpg);
+ }
+#photo2 {
+        background: url(Media/photo2.jpg);
+}
+#photo3 {
+        background: url(Media/photo3.jpg);
+}
+#tourisme li {
+        margin: 65px 100px 0 100px;
+        height: 226px;
+        width: 55%;
+        min-width: 250px;
+        max-width: 550px;
+        float : left;
+        box-shadow: 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme p{
+        height: 45px;
+        width: 235px;
+        background-color: #01DF74;
+        float:right;
+        margin: 50px -180px 0 0;
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 15px;
+        box-shadow: 4px 4px 8 1px rgba(90,161,43,1);
+}
+/* *************** FOOTER *********************** */
+footer{
+    background-color: #524a3a;
+    width:100%;
+    color: #FFFAE1;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;
+}
+textarea{
+    height: 120px;
+}
+button{
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover{
+    background-color: rgb(248, 51, 51);
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+#deuxièmeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: center;
+    color: #FFFAE1;
+    margin: 0 auto;
+}
+#icons {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+#langue {
+    
+}
